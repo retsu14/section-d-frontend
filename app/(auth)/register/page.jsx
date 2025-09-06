@@ -1,7 +1,11 @@
-import React from "react";
+import Register from "../../../components/Register";
 
 const page = () => {
-  return <div>Register</div>;
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <Register />
+    </div>
+  );
 };
 
 export default page;
